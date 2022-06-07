@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Following : MonoBehaviour
+/*public class Following : MonoBehaviour
 {
     Camera cam;
     Collider plaincollider;
@@ -27,4 +27,4 @@ public class Following : MonoBehaviour
             }
         }
     }
-}
+}*/
