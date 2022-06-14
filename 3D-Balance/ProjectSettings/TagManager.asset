@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Shootable
   - Ball
+  - Disk
   layers:
   - Default
   - TransparentFX
