@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using TMPro;
 
 public class EventManager : MonoBehaviour
 {
+    private TextMeshProUGUI PointText;
     public GameObject PauseScreen;
    // public GameObject PauseButton;
    bool alreadyCollided = false;
@@ -14,6 +16,7 @@ public class EventManager : MonoBehaviour
 
     private void Start()
     {
+
         GamePaused = false;
     }
 
