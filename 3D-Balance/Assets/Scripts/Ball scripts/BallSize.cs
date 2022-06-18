@@ -6,7 +6,7 @@ using TMPro;
 
 public class BallSize : MonoBehaviour
 {
-    
+    public GameObject Blast;
     public Image Heathbar;
     bool iscollided = false;
 
@@ -50,7 +50,7 @@ public class BallSize : MonoBehaviour
     public void BallSizeController()
     {
 
-        if(iscollided == true)
+        if(iscollided == true )
         {
             this.transform.localScale = this.transform.localScale - new Vector3(0.01f, 0.01f, 0.01f) * Time.deltaTime/2;
 
@@ -63,6 +63,8 @@ public class BallSize : MonoBehaviour
             EventsCaller.Counting(); 
             Debug.Log("hello");
             Destroy(GameObject.FindWithTag("Ball"));
+            GameObject explosion = Instantiate(Blast, transform.position, transform.rotation);
+            Destroy(explosion, 0.5f);
         }
 
        // if (health > 0)
@@ -79,6 +81,11 @@ public class BallSize : MonoBehaviour
     {
         Color healthcolor = Color.Lerp(Color.red, Color.green, (health / maxhealth));
         Heathbar.color = healthcolor;
+    }
+
+    private void OnDisable()
+    {
+        EventsCaller.eventcaller -= BallSizeController;
     }
 
 }
