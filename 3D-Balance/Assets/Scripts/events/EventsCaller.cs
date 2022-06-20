@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class EventsCaller : MonoBehaviour
 {
+    public GameObject Explosion;
     public Image Heathbar;
     public float health, maxhealth = 100f;
     float lerpSpeed;
@@ -23,6 +24,7 @@ public class EventsCaller : MonoBehaviour
 
     private void Start()
     {
+        Explosion.SetActive(false);
         ballSize = FindObjectOfType<BallSize>();
         EventsCaller.eventcaller2 += Counter;
         EventsCaller.eventcaller3 += Damage;
@@ -41,10 +43,7 @@ public class EventsCaller : MonoBehaviour
 
         eventcaller?.Invoke();
 
-        if(health < 1)
-        {
-            EndGame();
-        }
+        explosion();
 
     }
 
@@ -58,6 +57,7 @@ public class EventsCaller : MonoBehaviour
 
     public void Counter()
     {
+        
         count++;
 
         DisplayText.text = "Point :- " + count;
@@ -68,6 +68,19 @@ public class EventsCaller : MonoBehaviour
         EventsCaller.eventcaller2 -= Counter;
         EventsCaller.eventcaller3 -= Damage;    
     }
+
+    public void explosion()
+    {
+        if(health <1)
+        {
+            FindObjectOfType<AudioManager>().Play("Explod");
+            StartCoroutine(load());
+            //GameObject explosion = Instantiate(Explosion, transform.position, transform.rotation);
+            //Destroy(explosion, 0.1f);
+            EndGame();
+        }
+    }
+
 
 
 
@@ -110,6 +123,19 @@ public class EventsCaller : MonoBehaviour
 
     void Restart()
     {
+        StartCoroutine(change());
+    }
+
+
+    IEnumerator change()
+    {
+        yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(2);
+    }
+
+    IEnumerator load()
+    {
+        yield return new WaitForSeconds(0.2f);
+        Explosion.SetActive(true);
     }
 }

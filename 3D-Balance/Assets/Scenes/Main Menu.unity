@@ -386,6 +386,18 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: SmallB
+    clip: {fileID: 8300000, guid: 3e213fa0bc9cb7f48aae61e50f7a781c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Explod
+    clip: {fileID: 8300000, guid: 8b6492036bc675e478c2c57b64f98a85, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &520231408
 Transform:
   m_ObjectHideFlags: 0
@@ -894,7 +906,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.13906515, y: 0.39785936, z: -0.06115109, w: 0.9047814}
+  m_LocalRotation: {x: 0.13906512, y: 0.39785936, z: -0.061151084, w: 0.9047814}
   m_LocalPosition: {x: 19.949724, y: -3.5104182, z: 28.79026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1242,7 +1254,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084947606}
-  m_LocalRotation: {x: 0.13906515, y: 0.39785936, z: -0.06115109, w: 0.9047814}
+  m_LocalRotation: {x: 0.13906512, y: 0.39785936, z: -0.061151084, w: 0.9047814}
   m_LocalPosition: {x: 19.949724, y: -3.5104182, z: 28.79026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

@@ -5078,7 +5078,7 @@ MonoBehaviour:
   Blast: {fileID: 7992478319581759233}
   Heathbar: {fileID: 7969371358314367272}
   health: 0
-  maxhealth: 2000
+  maxhealth: 500
   count: 0
 --- !u!1 &7992478319581759233
 GameObject:
