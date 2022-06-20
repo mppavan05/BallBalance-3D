@@ -65,6 +65,7 @@ public class BallSize : MonoBehaviour
             Destroy(GameObject.FindWithTag("Ball"));
             GameObject explosion = Instantiate(Blast, transform.position, transform.rotation);
             Destroy(explosion, 0.5f);
+            FindObjectOfType<AudioManager>().Play("SmallB");
         }
 
        // if (health > 0)

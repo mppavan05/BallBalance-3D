@@ -10,5 +10,11 @@ EditorBuildSettings:
     guid: 6a271b6bea46345479f8049e75703a11
   - enabled: 1
     path: Assets/Scenes/Game Play.unity
+    guid: 8ac7de6f203c59a4a999c4ac60493958
+  - enabled: 1
+    path: Assets/Scenes/Quit Menu.unity
+    guid: 7c28f6d958f26d24a818ea161c8475c9
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

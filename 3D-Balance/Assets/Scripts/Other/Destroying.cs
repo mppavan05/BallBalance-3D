@@ -17,6 +17,7 @@ public class Destroying : MonoBehaviour
     {
         if (collision.collider.CompareTag("Ball"))
         {
+            EventsCaller.DamageEvent();
             Destroy(collision.gameObject);
         }
 
