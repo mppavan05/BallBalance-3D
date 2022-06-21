@@ -17104,7 +17104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822022247}
   m_LocalRotation: {x: 0.07455013, y: -0.09220932, z: 0.035531964, w: 0.99230903}
-  m_LocalPosition: {x: 0.048671268, y: 1.9388707, z: -0.9164592}
+  m_LocalPosition: {x: 0.048668813, y: 1.625745, z: -0.6731361}
   m_LocalScale: {x: 0.09746525, y: 0.4658475, z: 0.11843695}
   m_Children:
   - {fileID: 2067616544}
@@ -27156,7 +27156,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.03331507, y: 0.9666766, z: -0.17741793, w: -0.18151997}
+  m_LocalRotation: {x: -0.03331507, y: 0.9666766, z: -0.17741793, w: 0.18300149}
   m_LocalPosition: {x: 7.873812, y: 12.524143, z: 20.27731}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -27702,7 +27702,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175479275}
-  m_LocalRotation: {x: -0.000042869, y: 0.99796265, z: -0.063797824, w: -0.0006705818}
+  m_LocalRotation: {x: -0.000042866854, y: 0.99796265, z: -0.063797824, w: -0.0006705482}
   m_LocalPosition: {x: 24.252317, y: -5.1740465, z: 33.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -29089,8 +29089,9 @@ MonoBehaviour:
   m_text: The "Asteroid hit" affected the ending of the age of dinosaurs some 66
     million years ago and was the worst single-day that life on Earth has ever endured.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7fb3b6597de135a4281ab72c4a85511c, type: 2}
+  m_sharedMaterial: {fileID: -5327343527487085271, guid: 7fb3b6597de135a4281ab72c4a85511c,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29324,7 +29325,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559648532}
-  m_LocalRotation: {x: -0.17654486, y: -0.5785534, z: -0.13001215, w: 0.7856238}
+  m_LocalRotation: {x: -0.1272417, y: 0.8362463, z: -0.2187262, w: -0.48647767}
   m_LocalPosition: {x: 26.331846, y: -3.4415426, z: 33.923973}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -29883,8 +29884,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\"Star warriors\" always\_fought against\_Asteroid's\_\n\n\n\nBUT......."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7fb3b6597de135a4281ab72c4a85511c, type: 2}
+  m_sharedMaterial: {fileID: -5327343527487085271, guid: 7fb3b6597de135a4281ab72c4a85511c,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29944,7 +29946,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 2.822754, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
